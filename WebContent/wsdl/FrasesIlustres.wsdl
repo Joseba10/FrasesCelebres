@@ -77,7 +77,7 @@ Built on Apr 22, 2006 (06:55:48 PDT)-->
 
       <wsdl:port binding="impl:FrasesIlustresSoapBinding" name="FrasesIlustres">
 
-         <wsdlsoap:address location="http://localhost:8080/WSRajoyDice/services/FrasesIlustres"/>
+         <wsdlsoap:address location="http://localhost:8080/FrasesCelebres/services/FrasesIlustres"/>
 
       </wsdl:port>
 

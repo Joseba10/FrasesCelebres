@@ -4,4 +4,4 @@
 
 # Direccion para consumir el servicio
 
-http://localhost:8080/WSRajoyDice/services/FrasesIlustres?wsdl
+http://localhost:8080/FrasesCelebres/services/FrasesIlustres?wsdl
