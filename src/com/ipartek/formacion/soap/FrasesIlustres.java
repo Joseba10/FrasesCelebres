@@ -1,6 +1,7 @@
 package com.ipartek.formacion.soap;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class FrasesIlustres {
 private int contador=0;
@@ -60,9 +61,11 @@ private int contador=0;
 			contador=0;
 		}
 		
-	
-		String frase = frases.get(contador);
-		contador++;
+		int randomIndex = (int) (Math.random() * frases.size());
+		System.out.println( "Random Color: " +  frases.get( randomIndex ) );
+		   
+		String frase = frases.get(randomIndex);
+		
 		return frase;
 	}
 	
